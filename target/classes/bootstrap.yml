@@ -1,12 +1,13 @@
 spring:
   application:
     name: spring-cloud-registry-service
+
   cloud:
     config:
       uri: http://localhost:8888
       fail-fast: true
-      username: root
-      password: s3cr3t
+#      username: root
+#      password: s3cr3t
 
 #spring:
 #  application:
